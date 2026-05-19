@@ -1,10 +1,11 @@
 const mainEl = document.getElementById("mainSection");
 const checkThis = document.getElementById("checkThis");
+const bar = document.getElementById("bar");
 
 let currentHue = 0;
 
 const iOOptions = {
-    root: null,
+    root: bar,
     rootMargin: "0px",
     scrollMargin: "0px",
     threshold: 1.0,
